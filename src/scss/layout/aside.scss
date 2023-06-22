@@ -1,0 +1,91 @@
+.menu{
+    background-color: #FFFFFF;
+    height: 1198px;
+    max-width: 306px;
+    padding: 36px 28px 78px;
+    .active{
+        border-radius: 8px;
+        background: #5932EA;
+    }
+    &__title{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 64px;
+        max-width: 217px;
+    }
+    &__logo{
+        margin-right: 8px;
+    }
+    &__description{
+        color: #000;
+        font-size: 26px;
+        font-family: Poppins;
+        font-weight: 600;
+        letter-spacing: 0.26px;
+        span{
+            color: #838383;
+            font-size: 10px;
+            font-family: Poppins;
+            font-weight: 500;
+            letter-spacing: -0.1px;
+            margin-left: 4px;
+        }
+    }
+    &__list{
+        margin-bottom: 558px;
+    }
+    &__item{
+        display: flex;
+        justify-content: space-between;
+        padding: 11px 8px 11px 11px;
+        max-width: 250px;
+        height: 46px;
+        align-items: center;
+        margin-bottom: 29px;
+        &_start{
+            justify-content: flex-start;
+        }
+        &__icon{
+            margin-right: 14px;
+        }
+        &__description{
+            color: #9197B3;
+            font-size: 14px;
+            font-weight: 500;
+            letter-spacing: -0.14px;
+        }
+    }
+    &__content{
+        display: flex;  
+        align-items:center;
+    }
+
+    &__about{
+        display: flex;
+        img{
+            max-width: 42px;
+            height: 42px;
+            margin-right: 14px;
+        }
+        &__content{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            height: 38px;
+        }
+    }
+    &__name{
+        color: #000;
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 0.14px;
+    }
+    &__job{
+        color: #757575;
+        font-size: 12px;
+        font-weight: 300;
+        letter-spacing: 0.12px;
+    }
+
+}

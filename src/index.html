@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+  @@include('html/head.html', {
+    'title': 'Главная'
+  })
+  <body>
+    <section class="home">
+        <aside class="menu">
+            <div class="menu__title">
+                <img src="images/icons/setting.svg" alt="logo" class="menu__logo">
+                <div class="menu__description">Dashboard<span>v.01</span></div>
+            </div>
+    
+            <div class="menu__list">
+                <!-- 1 -->
+                <div class="menu__item menu__item_start">
+                    <img class="menu__item__icon" alt="key" src="images/icons/key.svg"></img>
+                    <div class="menu__item__description">Dashboard</div>
+                </div>
+                <!-- 2 -->
+                <div class="menu__item">
+                    <div class="menu__content">
+                        <img class="menu__item__icon" alt="product" src="images/icons/product.svg"></img>
+                        <div class="menu__item__description">Product</div>
+                    </div>
+                    <img src="./images/icons/arrowRightGray.svg" alt="arrowRightGray">
+                </div>
+                <!-- 3 -->
+                <div class="menu__item active">
+                    <div class="menu__content">
+                        <img class="menu__item__icon" alt="Customers" src="images/icons/customers.svg"></img>
+                        <div class="menu__item__description white">Customers</div>
+                    </div>
+                    <img src="./images/icons/arrowRightWhite.svg" alt="arrowRightWhite">
+                </div>
+                <!-- 4 -->
+                <div class="menu__item">    
+                    <div class="menu__content">
+                        <img class="menu__item__icon" alt="Income" src="images/icons/income.svg"></img>
+                        <div class="menu__item__description">Income</div>
+                    </div>
+                    <img src="./images/icons/arrowRightGray.svg" alt="arrowRightGray">
+                </div>
+                <!-- 5 -->
+                <div class="menu__item">
+                    <div class="menu__content">
+                        <img class="menu__item__icon" alt="Promote" src="images/icons/promote.svg"></img>
+                        <div class="menu__item__description">Promote</div>
+                    </div>
+                    <img src="./images/icons/arrowRightGray.svg" alt="arrowRightGray">
+                </div>
+                <!-- 6 -->
+                <div class="menu__item">
+                    <div class="menu__content">
+                        <img class="menu__item__icon" alt="Help" src="images/icons/help.svg"></img>
+                        <div class="menu__item__description">Help</div>
+                    </div>
+                    <img src="./images/icons/arrowRightGray.svg" alt="arrowRightGray">
+                </div>
+    
+            </div>
+    
+            <div class="menu__about">
+                <img src="images/menu-img.png" alt="man">
+                <div class="menu__about__content">
+                    <div class="menu__name">Evano</div>
+                    <div class="menu__job">Project Manager</div>
+                </div>
+                
+            </div>
+    
+        </aside>
+
+        <section class="main">
+            <div class="main__title">Hello Evano 👋🏼,</div>
+            <div class="main__wrapper">
+                <div class="main__header">
+                    <div class="main__header__content">
+                        <div class="main__header__title">All Customers</div>
+                        <div class="main__header__subtitle">Active Members</div>
+                    </div>
+                    <div class="main__header__search">
+                        <img src="images/icons/search.svg" class="main__header__search__icon" alt="search"></img>
+                        <div class="main__header__search__text">Search</div>
+                    </div>
+
+                    
+                </div>
+                <div class="main__body"></div>
+                <div class="footer"></div>
+            </div>
+        </section>
+    </section>
+    
+
+    @@include('html/script.html', {})
+  </body>
+</html> 
