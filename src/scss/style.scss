@@ -37,8 +37,13 @@
 .white{
     color: #FFFFFF;
 }
+.gray{
+    color: #B5B7C0;
+}
 .home{
     max-width: 1440px;
     margin: 0 auto;
     display: flex;
 }
+
+@import 'layout/media';
