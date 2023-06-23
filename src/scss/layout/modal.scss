@@ -1,0 +1,32 @@
+.modal{
+    width: 400px;
+    height: 250px;
+    background-color: #5932EA;
+    border-radius: 30px;
+    padding: 15px 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+    &__item{
+        color: #fff;
+        padding: 9px 0;
+        display: inline-flex;
+        font-size: 18px;
+        font-weight: 300;
+        &_title{
+            color: #B5B7C0;
+            margin-right: 15px;
+            font-size: 20px;
+            font-weight: 600;
+        }
+    }
+    &__close{
+        color: #fff;
+        font-size: 40px;
+        display: flex;
+        justify-content: end;
+        cursor: pointer;
+    }
+}
